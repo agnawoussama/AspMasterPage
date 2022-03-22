@@ -13,5 +13,10 @@ namespace AspMasterPage.CrudPages
         {
 
         }
+
+        protected void drpDownNumEtud_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -13,6 +13,7 @@ namespace AspMasterPage
         {
             if (!IsPostBack)
             {
+                
                 AdoClass ado = new AdoClass();
                 try
                 {

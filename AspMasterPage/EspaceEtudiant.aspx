@@ -45,9 +45,9 @@
 </head>
           
     <ul id="listCrud" >
-        <li><a runat="server" href="~/">Créer Compte</a></li>
-        <li><a runat="server" href="~/About">Modifier Compte</a></li>
-        <li><a runat="server" href="~/EspaceEtudiant">Supprimer Compte</a></li>
+        <li><a runat="server" href="~/CrudPages/CreateStudent">Créer Compte</a></li>
+        <li><a runat="server" href="~/CrudPages/UpdateStudent">Modifier Compte</a></li>
+        <li><a runat="server" href="~/CrudPages/DeleteStudent">Supprimer Compte</a></li>
     </ul>
 
     

@@ -11,7 +11,7 @@ namespace AspMasterPage.CrudPages
 {
 
 
-    public partial class Infos
+    public partial class DeleteStudent
     {
 
         /// <summary>
@@ -69,21 +69,12 @@ namespace AspMasterPage.CrudPages
         protected global::System.Web.UI.WebControls.TextBox txtbxPrenom;
 
         /// <summary>
-        /// Label4 control.
+        /// btnSupprimer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
-
-        /// <summary>
-        /// txtbxDateNaiss control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtbxDateNaiss;
+        protected global::System.Web.UI.WebControls.Button btnSupprimer;
     }
 }

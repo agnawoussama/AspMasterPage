@@ -113,7 +113,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CrudPages\CreateStudent.aspx" />
+    <Content Include="CrudPages\DeleteStudent.aspx" />
     <Content Include="CrudPages\Infos.ascx" />
+    <Content Include="CrudPages\UpdateStudent.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="EspaceEtudiant.aspx" />
     <Content Include="favicon.ico" />
@@ -187,12 +189,26 @@
     <Compile Include="CrudPages\CreateStudent.aspx.designer.cs">
       <DependentUpon>CreateStudent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CrudPages\DeleteStudent.aspx.cs">
+      <DependentUpon>DeleteStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudPages\DeleteStudent.aspx.designer.cs">
+      <DependentUpon>DeleteStudent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CrudPages\Infos.ascx.cs">
       <DependentUpon>Infos.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CrudPages\Infos.ascx.designer.cs">
       <DependentUpon>Infos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudPages\UpdateStudent.aspx.cs">
+      <DependentUpon>UpdateStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudPages\UpdateStudent.aspx.designer.cs">
+      <DependentUpon>UpdateStudent.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

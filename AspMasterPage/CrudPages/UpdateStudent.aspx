@@ -1,4 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/Site.Master"  CodeBehind="CreateStudent.aspx.cs" Inherits="AspMasterPage.CrudPages.CreateStudent" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="UpdateStudent.aspx.cs" Inherits="AspMasterPage.CrudPages.UpdateStudent" %>
+
+<%@ Register src="Infos.ascx" tagname="Infos" tagprefix="uc1" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -51,9 +53,6 @@
             margin: 0px auto;
             width: 90%;
         }
-        #DateNaiss{
-            width: 100%;
-        }
     </style>
 </head>
           
@@ -66,11 +65,10 @@
     
     <div id="liste">
         <div id="container">
-            <h1 style="text-align:center">Nouveau Compte </h1> 
-            <p>Saisir les informations de l'étudiant ici:</p>
+            <h1 style="text-align:center">Mise a jour de Compte </h1> 
             <div>             
                 <asp:Label ID="Label1" runat="server" Text="Numéro d'Etudiant"></asp:Label>
-                <asp:TextBox ID="txtbxNumEtu" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="drpDownNumEtud" runat="server" OnSelectedIndexChanged="drpDownNumEtud_SelectedIndexChanged"></asp:DropDownList>
                 <br /><br />
                 <asp:Label ID="Label2" runat="server" Text="Nom"></asp:Label>
                 <asp:TextBox ID="txtbxNom" runat="server"></asp:TextBox>
@@ -81,7 +79,7 @@
                 <asp:Label ID="Label4" runat="server" Text="Date De Naissance"></asp:Label>
                 <input id="DateNaiss" runat="server" type="date" />
                 <br /><br />
-                <asp:Button ID="btnEnregistrer" runat="server" Text="Enregistrer" OnClick="btnEnregistrer_Click" />
+               <asp:Button ID="btnUpdate" runat="server" Text="Mettre a jour" OnClick="btnUpdate_Click1" />
             </div>
         </div>
     </div>
